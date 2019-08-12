@@ -72,6 +72,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Views\CharacterGenerationForm.resx">
+      <DependentUpon>CharacterGenerationForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\MasterForm.resx">
       <DependentUpon>MasterForm.cs</DependentUpon>
     </EmbeddedResource>
