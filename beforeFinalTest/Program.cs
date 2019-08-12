@@ -1,4 +1,5 @@
-﻿using System;
+﻿using beforeFinalTest.Views;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,6 +9,8 @@ namespace beforeFinalTest
 {
     static class Program
     {
+        
+        public static CharacterGenerationForm characterForm;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -16,7 +19,8 @@ namespace beforeFinalTest
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-          
+             characterForm= new CharacterGenerationForm();
+            Application.Run(characterForm);
         }
     }
 }
