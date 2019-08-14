@@ -1,4 +1,5 @@
-﻿using beforeFinalTest.Views;
+﻿using beforeFinalTest.Objects;
+using beforeFinalTest.Views;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,8 @@ namespace beforeFinalTest
 {
     static class Program
     {
+        public static AboutBox aboutBox;
+        public static CharacterPorfolio chapo;
         
         public static CharacterGenerationForm characterForm;
         /// <summary>
@@ -19,7 +22,9 @@ namespace beforeFinalTest
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-             characterForm= new CharacterGenerationForm();
+            characterForm= new CharacterGenerationForm();
+            aboutBox = new AboutBox();
+            chapo = new CharacterPorfolio();
             Application.Run(characterForm);
         }
     }

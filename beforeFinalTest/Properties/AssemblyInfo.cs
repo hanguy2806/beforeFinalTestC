@@ -5,8 +5,8 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("beforeFinalTest")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Before Final Test")]
+[assembly: AssemblyDescription("the practise be4 final test")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("beforeFinalTest")]

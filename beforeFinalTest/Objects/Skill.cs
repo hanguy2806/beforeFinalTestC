@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /*
- * STUDENT NAME:
- * STUDENT ID:
- * DESCRIPTION: this is the skill class 
+ * STUDENT NAME: Thi Thu Ha Nguyen
+ * STUDENT ID:301017727
+ * DESCRIPTION: this is skill class
  */
 
 namespace beforeFinalTest.Objects
@@ -15,5 +15,9 @@ namespace beforeFinalTest.Objects
     {
         public string Name { get; set; }
         public int Level { get; set; }
+        public Skill(string name)
+        {
+            this.Name = name;
+        }
     }
 }

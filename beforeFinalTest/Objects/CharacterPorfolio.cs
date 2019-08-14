@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 /*
- * STUDENT NAME:
- * STUDENT ID:
- * DESCRIPTION:this is character class
+ * STUDENT NAME:Thi Thu Ha Nguyen
+ * STUDENT ID:301017727
+ * DESCRIPTION:this is character porfolio class which contains in4 of character.
  */
 
 namespace beforeFinalTest.Objects
@@ -26,14 +27,14 @@ namespace beforeFinalTest.Objects
         public string SocialStanding { get; set; }
 
         //Skill list
-        List<Skill> Skills;
+        public List<Skill> SkillsList;
 
-        CharacterPorfolio()
+        public CharacterPorfolio()
         {
-            this.Skills = new List<Skill>();
+            this.SkillsList = new List<Skill>();
             this.Identity = new Identity();
 
         }
 
-    }
+    }       
 }

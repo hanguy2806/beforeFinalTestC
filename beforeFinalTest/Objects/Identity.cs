@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /*
- * STUDENT NAME:
- * STUDENT ID:
- * DESCRIPTION:
+ * STUDENT NAME: Thi Thu Ha Nguyen 
+ * STUDENT ID: 301017727
+ * DESCRIPTION: This is identity class which contains name of character
  */
 
 namespace beforeFinalTest.Objects
